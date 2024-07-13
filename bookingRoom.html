@@ -47,6 +47,29 @@
           }
         },
         {
+          "time" : moment().format('YYYY-MM-DD') + " 08:30:00" , 
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
           "time" : moment().format('YYYY-MM-DD') + " 09:00:00",
           "k3lh8" : {
             'status' : true,
@@ -70,7 +93,7 @@
           }
         },
         {
-          "time" : moment().format('YYYY-MM-DD') + " 10:00:00",
+          "time" : moment().format('YYYY-MM-DD') + " 09:30:00",
           "k3lh8" : {
             'status' : true,
             'booked' : ""
@@ -91,7 +114,122 @@
             'status' : true,
             'booked' : ''
           }
-        }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD')+ " 10:00:00" ,
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 10:30:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 11:00:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 13:00:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 13:00:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
       ]
     </script>
 </head>
@@ -297,7 +435,7 @@
             </div> -->
           </div>
           <div class="col-12 text-left mt-4">
-            <h6> <strong id="lbl-date"> Booking Date : 19 Januari 2024 </strong></h6>
+            <h6> <strong id="lbl-date"> Booking Date :  </strong></h6>
           </div>
           <div class="table-responsive">
             <table class="table table-striped table-hover bg-steel mt-1">
@@ -539,7 +677,7 @@
       return true;
     })
     $(document).ready(function() {
-      $('#lbl-today').html('Today, ' + moment().format('LL'))
+      $('#lbl-today').html('Today : ' + moment().format('LL'))
 
       let htmTbody = '';
       arrData.forEach(item => {
@@ -587,8 +725,8 @@
     })
 
     const onCLick = (link, date) => {
-      window.location = link + '?date=' + date
-    }
+      window.location = link + '?date=' + date 
+    }  
   </script>
 </body>
 

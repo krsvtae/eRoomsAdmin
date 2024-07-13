@@ -49,24 +49,24 @@
         {
           "time" : moment().format('YYYY-MM-DD') + " 08:30:00" , 
           "k3lh8" : {
-            'status' : true,
-            'booked' : ""
+            'status' : false,
+            'booked' : "Booked by Eva <br />(HCGS)"
           },
           "k3lh9": {
             'status' : true,
             'booked' : ''
           },
           "k3lh11": {
-            'status' : true,
-            'booked' : ''
+            'status' : false,
+            'booked' : 'Booked by Santi <br/> (ICT)'
           },
           "k3lh12": {
             'status' : true,
             'booked' : ''
           },
           "k3lh13": {
-            'status' : true,
-            'booked' : ''
+            'status' : false,
+            'booked' : 'Booked by Kiwi <br />(HC)'
           }
         },
         {
@@ -84,8 +84,8 @@
             'booked' : ''
           },
           "k3lh12": {
-            'status' : true,
-            'booked' : ''
+            'status' : false,
+            'booked' : 'Booked by Rerew <br/> (ICT)'
           },
           "k3lh13": {
             'status' : true,
@@ -230,6 +230,167 @@
             'booked' : ''
           }
         },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 13:30:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 14:00:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 14:30:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 15:00:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 15:30:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 16:00:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
+        {
+          "time" : moment().format('YYYY-MM-DD') + " 16:30:00",
+          "k3lh8" : {
+            'status' : true,
+            'booked' : ""
+          },
+          "k3lh9": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh11": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh12": {
+            'status' : true,
+            'booked' : ''
+          },
+          "k3lh13": {
+            'status' : true,
+            'booked' : ''
+          }
+        },
       ]
     </script>
 </head>
@@ -333,7 +494,7 @@
               Back to Dashboard</a>
           </div>
           <div class="col-12 text-right mt-2">
-            <h6> <strong id="lbl-today"> Today : 19 Januari 2024 </strong></h6>
+            <h6> <strong id="lbl-today"> Today :  </strong></h6>
           </div>
           <div class="row bg-steel pb-3">
             <div class="col-md-4 col-sm-6 col-xs-12 mt-3">
@@ -450,9 +611,7 @@
                 </tr>
               </thead>
               <tbody id="data-table" class="table-group-divider">
-
               </tbody>
-
               <!-- <tbody class="table-group-divider">
                 <tr class="text-center">
                   <td style="text-align: center;  vertical-align:middle;"><strong>08.00 AM</strong></td>
